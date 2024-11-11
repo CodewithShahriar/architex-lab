@@ -22,22 +22,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="/static/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/static/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="img/icons/icon-1.png" alt="Icon">
+        <img class="position-absolute top-50 start-50 translate-middle" src="/static/img/icons/icon-1.png" alt="Icon">
     </div>
     <!-- Spinner End -->
 
@@ -48,8 +48,7 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
                     <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i>+012 345 6789</a>
-                    <a class="text-body px-2" href="mailto:info@example.com"><i class="fa fa-envelope-open text-primary me-2"></i>info@architexlab
-                        .com</a>
+                    <a class="text-body px-2" href="mailto:info@example.com"><i class="fa fa-envelope-open text-primary me-2"></i>info@example.com</a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -72,7 +71,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="img/icons/icon-1.png" alt="Icon">Architex Lab
+            <h1 class="text-primary m-0"><img class="me-3" src="/static/img/icons/icon-1.png" alt="Icon">Architex Lab
             </h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -91,7 +90,7 @@
                 </div>
                 
             </div>
-            <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Appointment</a>
+            <a href="appointment.html" class="btn btn-primary py-2 px-4 d-none d-lg-block">Appointment</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -100,12 +99,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-1 text-white animated slideInDown">Features</h1>
+            <h1 class="display-1 text-white animated slideInDown">About Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb text-uppercase mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Features</li>
+                    <!-- <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li> -->
+                    <li class="breadcrumb-item text-primary active" aria-current="page">About</li>
                 </ol>
             </nav>
         </div>
@@ -113,36 +112,54 @@
     <!-- Page Header End -->
 
 
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="/static/img/about-1.jpg" alt="">
+                        <img class="img-fluid" src="/static/img/about-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    
+                    <h1 class="display-5 mb-4">A Creative Architecture Agency For Your Dream Home</h1>
+                    <p>At Architex Lab, we specialize in transforming dreams into reality with innovative architectural designs. With a passion for blending creativity and functionality, our team works closely with clients to craft spaces that reflect their unique vision and lifestyle. Whether you're designing your dream home or planning a commercial project, we prioritize personalized solutions that meet your needs while maintaining high-quality standards. <br> <br>
+
+                        Our expert architects bring expertise, attention to detail, and a commitment to excellence, ensuring that each project is both aesthetically stunning and structurally sound. We are dedicated to delivering designs that seamlessly integrate with the environment, enhancing both beauty and functionality. Each step of the process, from initial concept to final construction, is carefully managed to guarantee the highest standards of craftsmanship. <br> <br>
+                        
+                        Let us help you build the space you've always imagined. With our collaborative approach and dedication to client satisfaction, Architex Lab ensures that every project becomes a reflection of your aspirations. Experience the difference of working with a team that is passionate about turning your ideas into reality.</p>
+                    <!-- <div class="d-flex align-items-center mb-5">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary" style="width: 120px; height: 120px;">
+                            <h1 class="display-1 mb-n2" data-toggle="counter-up">7</h1>
+                        </div>
+                        <div class="ps-4">
+                            <h3>Years</h3>
+                            <h3>Working</h3>
+                            <h3 class="mb-0">Experience</h3>
+                        </div>
+                    </div> -->
+                    <!-- <a class="btn btn-primary py-3 px-5" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
     <!-- Feature Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    
-                    <h1 class="display-5 mb-4">Crafted Excellence Through Our Core Features</h1>
-                    <p class="mb-4"><div><h3><i class="fa fa-check text-primary me-3"></i>Innovative Design Solutions</h3> <br>
-                        Architex Lab’s designs push the boundaries of creativity while prioritizing functionality. Our team is dedicated to crafting unique, aesthetic solutions tailored to individual client needs, ensuring each project stands out and serves its purpose.</div> <br> <br>
+                    <h4 class="section-title">Why Choose Us!</h4>
+                    <h1 class="display-5 mb-4">Why You Should Trust Us? Learn More About Us!</h1>
+                    <p class="mb-4">Why trust Architex Lab with your next project? At Architex Lab, we are committed to bringing your vision to life with professionalism, creativity, and expertise. Our team of skilled architects, designers, and project managers works collaboratively with you at every stage of the process, ensuring your ideas are seamlessly integrated into the design. We pride ourselves on our ability to deliver not only beautiful and functional spaces but also solutions that are efficient, sustainable, and within budget. <br> <br>
+
+                        With years of experience in the industry, we have built a reputation for excellence in both residential and commercial architecture. Our client-centric approach means that we listen carefully to your needs and tailor our services to suit your specific goals. We understand the importance of trust in the design and construction process, which is why we work tirelessly to maintain transparency, meet deadlines, and exceed expectations. <br> <br>
                         
-                        <h3><i class="fa fa-check text-primary me-3"></i>Sustainable Architecture Practices</h3> <br>
-                        Sustainability is at the core of our work. We incorporate eco-friendly materials and energy-efficient systems, aiming to reduce environmental impact and create healthier living spaces that benefit both residents and the planet. <br> <br>
-                        
-                        <h3><i class="fa fa-check text-primary me-3"></i>Client-Centric Approach</h3> <br>
-                        At Architex Lab, we believe in a collaborative process where client input drives the design. From initial consultations to final touches, we work closely with clients to ensure their vision is realized, keeping them informed and involved at every stage. <br> <br>
-                        
-                        <h3><i class="fa fa-check text-primary me-3"></i>Client-Centric Approach</h3> <br>
-                        Our commitment to quality craftsmanship is evident in every detail. We partner with skilled artisans and experienced builders to ensure that each project reflects exceptional standards and enduring quality. <br> <br>
-                        
-                        <h3><i class="fa fa-check text-primary me-3"></i>3D Visualization & Advanced Technology</h3> <br> 
-                        Using cutting-edge 3D animation and visualization, we bring designs to life, allowing clients to fully experience their projects before construction begins. This technology enhances the design process, providing greater clarity and confidence in the final product. <br> <br>
-                        
-                        <h3><i class="fa fa-check text-primary me-3"></i>On-Time Project Completion</h3> <br>
-                        Time is valuable, and we respect that. Our team works diligently to ensure projects are completed on schedule without compromising quality, delivering seamless execution from start to finish. <br> <br>
-                        
-                        <h3><i class="fa fa-check text-primary me-3"></i>Versatile Project Expertise</h3> <br>
-                        From residential homes to large commercial spaces, we have extensive experience across a variety of projects. Our expertise ensures that we can meet diverse needs and adapt to different design challenges effectively. <br> <br>
-                        
-                        <h3><i class="fa fa-check text-primary me-3"></i>Versatile Project Expertise</h3> <br>
-                        Attention to detail is what sets us apart. We meticulously plan each aspect of the project, from initial layouts to finishing touches, ensuring that nothing is overlooked and every element aligns with the client’s vision.</p>
+                        Let us show you why we are the right choice for your project. With Architex Lab, you’re not just getting a service – you’re getting a partner dedicated to turning your dream space into a reality.</p>
                     <!-- <div class="row g-4">
                         <div class="col-12">
                             <div class="d-flex align-items-start">
@@ -175,18 +192,20 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="feature-img">
-                        <img class="img-fluid" src="img/about-2.jpg" alt="">
-                        <img class="img-fluid" src="img/about-1.jpg" alt="">
+                        <img class="img-fluid" src="/static/img/about-2.jpg" alt="">
+                        <img class="img-fluid" src="/static/img/about-1.jpg" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Feature End -->
-        
 
-     <!-- Footer Start -->
-     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -203,19 +222,19 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Services</h3>
-                    <a class="btn btn-link" href="">Architecture</a>
-                    <a class="btn btn-link" href="">3D Animation</a>
-                    <a class="btn btn-link" href="">House Planning</a>
-                    <a class="btn btn-link" href="">Interior Design</a>
-                    <a class="btn btn-link" href="">Construction</a>
+                    <a class="btn btn-link" href="service.html">Architecture</a>
+                    <a class="btn btn-link" href="service.html">3D Animation</a>
+                    <a class="btn btn-link" href="service.html">House Planning</a>
+                    <a class="btn btn-link" href="service.html">Interior Design</a>
+                    <a class="btn btn-link" href="service.html">Construction</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Quick Links</h3>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
+                    <a class="btn btn-link" href="#">Terms & Condition</a>
+                    <a class="btn btn-link" href="#">Support</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Newsletter</h3>
@@ -229,7 +248,9 @@
         </div>
     
     </div>
+    
     <!-- Footer End -->
+
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
@@ -248,7 +269,7 @@
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!--  Javascript -->
-    <script src="js/main.js"></script>
+    <script src="/static/js/main.js"></script>
 </body>
 
 </html>
