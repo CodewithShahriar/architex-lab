@@ -551,3 +551,24 @@ h6,
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+/* Default link styles */
+.nav-item .nav-link {
+    color: #000;
+    /* Default link color */
+}
+
+/* Active link styles based on the body class */
+.home-page .nav-link[href="index.html"],
+.about-page .nav-link[href="about.html"],
+.service-page .nav-link[href="service.html"],
+.feature-page .nav-link[href="feature.html"],
+.project-page .nav-link[href="project.html"],
+.contact-page .nav-link[href="contact.html"] {
+    font-weight: bold;
+    /* Make the active link bold */
+    color: #007bff;
+    /* Set active link color */
+    border-bottom: 2px solid #007bff;
+    /* Optional: add underline to highlight */
+}
