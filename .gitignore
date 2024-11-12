@@ -1,0 +1,16 @@
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+
+venv/
+env/
+
+
+*.env
+email.env
+
+
+.vscode/
+.idea/
