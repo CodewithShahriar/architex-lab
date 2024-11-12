@@ -100,15 +100,3 @@ Contributions are welcome! If you'd like to contribute:
    ```
 4. Push and open a pull request.
 
----
-
-## **License**
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## **Contact**
-
-For inquiries or feedback, feel free to reach out:
-
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- GitHub: [your-username](https://github.com/your-username)
